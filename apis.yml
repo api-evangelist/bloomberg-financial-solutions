@@ -1,99 +1,59 @@
+aid: bloomberg-financial-solutions
 name: Bloomberg Financial Solutions
-description: Bloomberg provides financial software tools including data, analytics, and trading platforms for financial professionals worldwide
-image: https://www.bloomberg.com/company/logo.png
-created: '2024'
-modified: '2024'
-url: https://www.bloomberg.com/professional/solution/
+description: >-
+  Bloomberg provides financial software tools including data, analytics, and
+  trading platforms for financial professionals worldwide.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Financial Data
-- Market Data
-- Trading
-- Analytics
-- News
-- Research
-apis:
-- name: Bloomberg Data API
-  description: Access to real-time and historical market data, reference data, and pricing information
-  image: https://www.bloomberg.com/company/logo.png
-  baseURL: https://api.bloomberg.com/eap
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  properties:
-  - type: documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: authentication
-    url: https://www.bloomberg.com/professional/support/api-library/#authentication
-  tags:
+  - Financial Data
   - Market Data
-  - Real-time
-  - Historical Data
-  contact:
-  - FN: Bloomberg Support
-    email: support@bloomberg.com
-- name: Bloomberg EMSX API
-  description: Execution Management System API for order routing and trade execution
-  image: https://www.bloomberg.com/company/logo.png
-  baseURL: https://api.bloomberg.com/emsx
-  humanURL: https://www.bloomberg.com/professional/product/emsx/
-  properties:
-  - type: documentation
-    url: https://www.bloomberg.com/professional/support/api-library/#emsx
-  - type: sdk
-    url: https://www.bloomberg.com/professional/support/api-library/
-  tags:
   - Trading
-  - Order Management
-  - Execution
-  contact:
-  - FN: Bloomberg Support
-    email: support@bloomberg.com
-- name: Bloomberg B-PIPE
-  description: Real-time and delayed market data feed for institutional clients
-  image: https://www.bloomberg.com/company/logo.png
-  baseURL: https://api.bloomberg.com/b-pipe
-  humanURL: https://www.bloomberg.com/professional/product/market-data-feed/
-  properties:
-  - type: documentation
-    url: https://www.bloomberg.com/professional/support/api-library/#b-pipe
-  - type: pricing
-    url: https://www.bloomberg.com/professional/product/market-data-feed/
-  tags:
-  - Market Data Feed
-  - Real-time
-  - Streaming
-  contact:
-  - FN: Bloomberg Support
-    email: support@bloomberg.com
-- name: Bloomberg Market Data API
-  description: Programmatic access to Bloomberg's reference data and market data
-  image: https://www.bloomberg.com/company/logo.png
-  baseURL: https://api.bloomberg.com/marketdata
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  properties:
-  - type: documentation
-    url: https://www.bloomberg.com/professional/support/api-library/#market-data
-  - type: code-examples
-    url: https://github.com/bloomberg
-  tags:
-  - Reference Data
-  - Securities
-  - Instruments
-  contact:
-  - FN: Bloomberg Support
-    email: support@bloomberg.com
+  - Analytics
+  - News
+  - Research
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: bloomberg-financial-solutions:bloomberg-data-api
+    name: Bloomberg Data API
+    description: >-
+      Access to real-time and historical market data, reference data, and
+      pricing information.
+    humanURL: https://www.bloomberg.com/professional/support/api-library/
+    tags:
+      - Market Data
+      - Real-time
+      - Historical Data
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
+  - aid: bloomberg-financial-solutions:bloomberg-emsx-api
+    name: Bloomberg EMSX API
+    description: >-
+      Execution Management System API for order routing and trade execution.
+    humanURL: https://www.bloomberg.com/professional/products/trading/execution-management-system/
+    tags:
+      - Trading
+      - Order Management
+      - Execution
+    properties:
+      - type: Documentation
+        url: https://emsx-api-doc.readthedocs.io/
 common:
-- type: website
-  url: https://www.bloomberg.com
-- type: developer-portal
-  url: https://www.bloomberg.com/professional/support/api-library/
-- type: terms-of-service
-  url: https://www.bloomberg.com/notices/tos/
-- type: privacy-policy
-  url: https://www.bloomberg.com/notices/privacy/
-- type: support
-  url: https://www.bloomberg.com/professional/support/
-- type: contact
-  url: https://www.bloomberg.com/professional/contact/
+  - type: Website
+    url: https://www.bloomberg.com
+  - type: Portal
+    url: https://developer.bloomberg.com/
+  - type: Terms of Service
+    url: https://www.bloomberg.com/notices/tos/
+  - type: Privacy Policy
+    url: https://www.bloomberg.com/notices/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
 maintainers:
-- FN: Bloomberg L.P.
-  email: support@bloomberg.com
-  url: https://www.bloomberg.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
