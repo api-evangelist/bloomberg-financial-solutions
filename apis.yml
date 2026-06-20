@@ -6,7 +6,7 @@ description: Bloomberg Financial Solutions encompasses the full suite of Bloombe
   treasury. Solutions include market data, risk analytics, portfolio management, trading,
   compliance, and regulatory reporting capabilities.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-21'
