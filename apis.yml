@@ -63,6 +63,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/aim/
 common:
+- type: DomainSecurity
+  url: security/bloomberg-financial-solutions-domain-security.yml
 - type: Portal
   url: https://www.bloomberg.com/professional/
 - type: Documentation
