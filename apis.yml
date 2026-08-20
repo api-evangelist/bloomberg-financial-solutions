@@ -68,6 +68,11 @@ apis:
   baseURL: blpapi://localhost:8194
   tags:
   - Order Management
+  - Portfolio-Management
+  - Compliance
+  - OMS
+  tags_raw:
+  - Order Management
   - Portfolio Management
   - Compliance
   - OMS
