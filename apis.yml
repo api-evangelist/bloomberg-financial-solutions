@@ -5,6 +5,17 @@ description: Bloomberg Financial Solutions encompasses the full suite of Bloombe
   insurance, and corporate treasury. Solutions include market data, risk analytics, portfolio management, trading,
   compliance, and regulatory reporting capabilities.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
