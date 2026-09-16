@@ -1,9 +1,9 @@
 aid: bloomberg-financial-solutions
 name: Bloomberg Financial Solutions
-description: Bloomberg Financial Solutions encompasses the full suite of Bloomberg financial data, analytics, and
-  technology products designed to support front, middle, and back office workflows across asset management, banking,
-  insurance, and corporate treasury. Solutions include market data, risk analytics, portfolio management, trading,
-  compliance, and regulatory reporting capabilities.
+description: Bloomberg Financial Solutions encompasses the full suite of Bloomberg financial data, analytics,
+  and technology products designed to support front, middle, and back office workflows across asset management,
+  banking, insurance, and corporate treasury. Solutions include market data, risk analytics, portfolio
+  management, trading, compliance, and regulatory reporting capabilities.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-financial-solutions.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Financial Solutions
@@ -43,8 +43,8 @@ tags:
 apis:
 - aid: bloomberg-financial-solutions:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: Core Bloomberg API providing real-time and reference data access for financial applications across
-    trading, risk, analytics, and compliance workflows.
+  description: Core Bloomberg API providing real-time and reference data access for financial applications
+    across trading, risk, analytics, and compliance workflows.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -56,8 +56,8 @@ apis:
     url: https://bloomberg.github.io/blpapi-docs/
 - aid: bloomberg-financial-solutions:port-api
   name: Bloomberg PORT (Portfolio Risk and Analytics)
-  description: Bloomberg's portfolio risk and analytics solution providing attribution, risk factor analysis, stress
-    testing, and regulatory reporting for asset managers and institutional investors.
+  description: Bloomberg's portfolio risk and analytics solution providing attribution, risk factor analysis,
+    stress testing, and regulatory reporting for asset managers and institutional investors.
   humanURL: https://www.bloomberg.com/professional/solution/portfolio-risk-analytics/
   baseURL: blpapi://localhost:8194
   tags:
@@ -70,8 +70,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/portfolio-risk-analytics/
 - aid: bloomberg-financial-solutions:aim-api
   name: Bloomberg AIM (Asset and Investment Manager)
-  description: Bloomberg's order and portfolio management system for asset managers supporting the full investment
-    lifecycle from order creation through compliance and settlement.
+  description: Bloomberg's order and portfolio management system for asset managers supporting the full
+    investment lifecycle from order creation through compliance and settlement.
   humanURL: https://www.bloomberg.com/professional/solution/aim/
   baseURL: blpapi://localhost:8194
   tags:
@@ -88,6 +88,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/aim/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
