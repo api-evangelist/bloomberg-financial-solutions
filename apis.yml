@@ -65,6 +65,11 @@ apis:
   baseURL: blpapi://localhost:8194
   tags:
   - Portfolio Analytics
+  - Risk Management
+  - Attribution
+  - Regulatory
+  tags_raw:
+  - Portfolio Analytics
   - Risk
   - Attribution
   - Regulatory
@@ -79,7 +84,7 @@ apis:
   baseURL: blpapi://localhost:8194
   tags:
   - Order Management
-  - Portfolio-Management
+  - Portfolio Management
   - Compliance
   - OMS
   tags_raw:
@@ -87,6 +92,7 @@ apis:
   - Portfolio Management
   - Compliance
   - OMS
+  - Portfolio-Management
   properties:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/aim/
