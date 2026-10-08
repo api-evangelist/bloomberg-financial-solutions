@@ -97,6 +97,12 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/solution/aim/
 common:
+- type: Plans
+  url: plans/bloomberg-financial-solutions-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-financial-solutions-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-financial-solutions-finops.yml
 - type: Website
   url: https://bloomberg.com
 - type: ParentCompany
